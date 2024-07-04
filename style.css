@@ -9,6 +9,23 @@ body::before {
     height: 350px;
 }
 
+@media (min-width: 450px){
+  .container {
+    width: 100%;
+  }
+  .col-md {
+    width: 100%;
+  }
+  .img-d {
+    width: 100%;
+  }
+  .lead {
+    width: 100%;
+  }
+}
+
+
+
   @media (min-width: 768px) {
     .news-input {
       width: 50%;
